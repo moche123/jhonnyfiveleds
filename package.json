@@ -1,0 +1,19 @@
+{
+  "name": "johnnyfive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
